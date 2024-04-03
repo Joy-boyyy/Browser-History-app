@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.parentDiv {
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.childDiv1 {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  background-color: #3361ca;
+  padding: 0px 70px;
+}
+.searchIcon {
+  width: 33px;
+  height: 25px;
+  background-color: #264a9c;
+  border: none;
+  padding: 5px;
+  margin-right: 3px;
+}
+
+.inputDiv {
+  display: flex;
+}
+
+.inputCL {
+  width: 250px;
+  height: 25px;
+  background-color: #264a9c;
+  border: none;
+  padding-left: 20px;
+  outline: none;
+}
+
+.historyImg {
+  width: 80px;
+  height: 30px;
+  margin-right: 300px;
+}
+
+.childDiv2 {
+  width: 100vw;
+  height: 100%;
+
+  padding: 20px 50px;
+}
+
+.liCl {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+.imgLogo {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.liData {
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.img-Del {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+  width: 83vw;
+}
+
+.logoDetail {
+  display: flex;
+}
+
+.ul {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.time {
+  margin-right: 30px;
+  font-size: 15px;
+}
+
+.delBtn {
+  background-color: transparent;
+  border: none;
+}
+
+.didMargin {
+  margin-right: 10px;
+}
